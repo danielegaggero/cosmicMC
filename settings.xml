@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<Grid>
+  <Emin value = ".1" />  <!-- unit: GeV -->
+  <Emax value = "10000." />
+  <nE value="100" />
+</Grid>
+<SNR>
+  <deltat value="1.e9" /> <!-- y -->
+  <SNRenergy value="20." /> <!-- unit: 10^48 erg -->
+  <SNRslope value="2.3" /> <!-- injected slope -->
+  <Nsamples value = "10" />
+</SNR>
+<Propagation>
+  <delta value="0.5" />
+  <D0 value="2.24" />
+  <E0 value="4." />
+  <L value="4." />
+</Propagation>
